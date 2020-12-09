@@ -121,3 +121,15 @@
 @keyframes spin {
   from {transform: rotate(1turn)}
 }
+.ex-11-icon{
+  animation-name: spin-2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin-2 {
+  0% {transform: rotate(0);}
+  75% {transform: rotate(275deg);}
+  100% {transform: rotate(0);}
+}

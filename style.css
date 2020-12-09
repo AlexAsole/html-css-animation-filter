@@ -67,3 +67,8 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-1-square:hover{
+  background: red;
+  transition: background 3s;
+}

@@ -72,3 +72,8 @@
   background: red;
   transition: background 3s;
 }
+
+.ex-2-square:active{
+  width: 500px;
+  transition: width 3s;
+}

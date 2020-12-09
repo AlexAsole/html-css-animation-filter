@@ -95,5 +95,13 @@
 }
 .ex-6-img:hover{
   filter: grayscale(1);
+}
+.ex-7-img:hover{
+  filter: blur(3px) grayscale(1);
   transition: filter 3s;
+}
+.ex-8-img:hover{
+  filter: saturate(3) sepia(2);
+  border-radius: 10px;
+  transition: filter 3s, border-radius 3s;
 }

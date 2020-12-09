@@ -93,3 +93,7 @@
   transform: scale(0.5);
   transition: transform 3s;
 }
+.ex-6-img:hover{
+  filter: grayscale(1);
+  transition: filter 3s;
+}

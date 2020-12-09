@@ -85,3 +85,11 @@
   background: transparent;
   transition: background 3s;
 }
+.ex-5-square:hover{
+  transform: scale(1.5);
+  transition: transform 3s;
+}
+.ex-5-square:active{
+  transform: scale(0.5);
+  transition: transform 3s;
+}

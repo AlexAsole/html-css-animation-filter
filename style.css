@@ -67,7 +67,7 @@
     width: 60px;
     height: 20px;
 }
-
+/* TRASFORMAZIONI, FILTRI E ANIMAZIONI */
 .ex-1-square:hover{
   background: red;
   transition: background 3s;
@@ -119,7 +119,7 @@
 
 }
 @keyframes spin {
-  from {transform: rotate(1turn)}
+  from {transform: rotate(1turn);}
 }
 .ex-11-icon{
   animation-name: spin-2;
@@ -132,4 +132,26 @@
   0% {transform: rotate(0);}
   75% {transform: rotate(275deg);}
   100% {transform: rotate(0);}
+}
+.ex-12-button:hover .ex-12-top-white{
+  animation-name: top-1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes top-1 {
+  0% {left: 10%;}
+  50% {left: calc(100% - 60px);}
+  100% {left: 10%;}
+}
+.ex-12-button:hover .ex-12-bottom-white{
+  animation-name: bottom-1;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes bottom-1 {
+  0% {right: 20%;}
+  50% {right: calc(100% - 60px);}
+  100% {right: 20%;}
 }
